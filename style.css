@@ -1,0 +1,105 @@
+body{
+    z-index: 0;
+   margin: 0; 
+   background-color: black;
+}
+
+.form0{
+    font-size: 20px;
+    height: 400px;
+    width: 200px;
+    color: white;
+    margin-top: 100px;
+    margin-left: -50px;
+    margin-right: 50px;
+
+}
+.form1{
+    margin-left: 30px;
+}
+label{
+    color: aliceblue;
+    font-size: 24px;
+
+}
+select{
+    background-color: silver;
+}
+input{
+    font-size: 20px;
+}
+
+.table1{
+    height: 250px;
+    width: 500px;
+    border: 10px solid wheat;
+    background-color: whitesmoke;
+    color: black;
+    /* margin-left: 15px; */
+    text-align: center;
+    display: none;
+    
+
+}
+.table2{
+    height: 250px;
+    width: 500px;
+    border: 10px solid  wheat;
+    background-color:whitesmoke;
+    /* margin-left: 10px; */
+    text-align: center;
+    /* padding-left: 50px; */
+    display: none;
+    /* margin-right: 25px; */
+
+  
+
+}
+.main{
+    display: flex;
+    margin-top: 100px;
+    padding: 100px;
+    height: 520px;
+    background-color: blue;
+
+
+}
+.button1{
+    font-size: 22px;
+    margin-top:20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    
+    
+}
+.heading{
+    align-items: center;
+padding-left: 450px; 
+font-size: 58px; 
+margin-top: 70px;
+color: whitesmoke; 
+
+}
+.head2{
+    font-size: 16px;margin-top: 400px;
+    margin-right: 80px;
+    color: aliceblue;
+
+
+}
+.head3{
+    font-size: 16px;margin-top: 400px;
+    margin-right: 80px;
+        color: aliceblue;
+
+
+}
+
+.maniya{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    height: 530px;
+}

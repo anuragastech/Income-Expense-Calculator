@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income and Expense Tracker</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js" integrity="sha512-aF9aX0J0+frs9Ps0W/NHmjBlSOFniw3mPQ/V7V5Z3Sqcx0NQ0PBfrt/zU0Z4BKetYn+5KnJf9NbwDXIwUNqEDA==" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+    <div class="heading">
+        <h4>
+            INCOME  EXPENSE CALCULATER 
+        </h4>
+    </div>
+
+    <div class="main">
+    <!-- Income Form -->
+
+    
+
+
+    <form name="sample" class="=form0">
+        <label for=""> CATEGORIES
+            <select name="catogary" id="">
+                <option value="salary">Salary</option>
+                <option value="rent">Rent</option>
+                <option value="wages">Wages</option>
+                <option value="commission">Commission</option>
+                <option value="other">Other</option>
+            </select>
+        </label> <br> <br>
+        <label for="">
+            <input type="number" name="incomes">
+        </label>
+        <input class="button1" type="button" name="add" value="Add Income" onclick="addincome();">
+    </form>
+
+
+    <style>
+        th{
+            border: 10px solid whitesmoke ;
+            width: 100%;
+            background-color: black;
+            height: 42px;
+            color: whitesmoke;
+        }
+        .th2{
+            
+            width: 60%;
+        }
+    </style>
+    <table id="incomeTable" class="table1" >
+        <tr>
+            <th  >Category</th>
+            <th  class="th2">Income</th>
+        </tr>
+    </table>
+
+    <h4 class="head2" id="incomeTotal" style="font-size: 20px;"></h4>
+
+    <!-- Expense Form -->
+    
+    <form name="sample1"  class="form1">
+        <label for=""> CATEGORIES
+            <select name="catogary1" id="">
+                <option value="salary">Salary</option>
+                <option value="rent">Rent</option>
+                <option value="wages">Wages</option>
+                <option value="commission">Commission</option>
+                <option value="other">Other</option>
+            </select>
+        </label> <br> <br>
+        <label for="">
+            <input type="number" id="a"  name="expense">
+        </label>
+        <input class="button1" type="button" name="add1" value="Add Expense" onclick="addexpense();">
+    </form>
+
+    <table id="expenseTable" class="table2">
+        <tr>
+            <th>Category</th>
+            <th>Expense</th>
+        </tr>
+    </table>
+
+    <h4 class="head3" id="expenseTotal" style="font-size: 20px;"></h4>
+
+</div>
+    <!-- Pie Chart -->
+
+<div class="maniya">
+    <div class="container" style="width: 500px; height: 300px; ">
+        <div>
+            <canvas id="pieChart"></canvas>
+        </div>
+    </div>
+</div>
+
+
+<div style="background-color: black; height: 100px; width: 100%;">
+
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="test6.js">
+        
+    </script>
+</body>
+</html>
+
+</body>
+</html>
